@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+    'main_navigation'   => 'MENU PRINCIPAL',
+    'banks'             => 'Bancos',
+    'companies'         => 'Empresas',
+    'company branches'  => 'Ramas de Empresas',
+    'blog'              => 'Blog',
+    'currencies'        => 'Monedas',
+    'employees'         => 'Empleados',
+    'pages'             => 'Páginas',
+    'Payment Gateways'  => 'Pasarelas de Pagos',
+    'account_settings'  => 'AJUSTES DE LA CUENTA',
+    'user_account'      => 'CUENTA DE USUARIO',
+    'profile'           => 'Perfil',
+    'change_password'   => 'Cambiar Contraseña',
+    'multilevel'        => 'Multi Nivel',
+    'level_one'         => 'Nivel 1',
+    'level_two'         => 'Nivel 2',
+    'level_three'       => 'Nivel 3',
+    'labels'            => 'ETIQUETAS',
+    'important'         => 'Importante',
+    'warning'           => 'Advertencia',
+    'information'       => 'Información',
+    'roles'             => 'Roles',
+    'Continents'        => 'Continentes',  
+    "Territories"       => "Territorios",
+    "Countries"         => "Países",
+    "States"            => "Estados",
+    "Municipalities"    => "Municipios",
+    "Parishes"          => "Parroquias",
+];
