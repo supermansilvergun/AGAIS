@@ -335,4 +335,8 @@ jQuery(document).ready(function($) {
             console.log("complete");
         });
     });
+
+    /*********************
+    * SAVE IMAGE PROFILE *
+    **********************/
 });

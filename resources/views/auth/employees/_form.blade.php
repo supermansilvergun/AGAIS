@@ -325,16 +325,7 @@
 	</div>
 	<div class="col-md-6">
 	    <div class="form-group">
-	    	<label for="wage">@lang('Photo')</label>
-			<div class="input-group mb-3">
-				<div class="input-group-prepend">
-					<button class="btn btn-primary" type="button" id="button-addon1">@lang('Upload')</button>
-				</div>
-			  	<div class="custom-file">
-				  	<input type="file" class="custom-file-input" id="avatar" name="avatar" value="{{ old('note', $employee->avatar ) }}">
-				  	<label class="custom-file-label" for="customFile">@lang('Choose file')</label>
-				</div>
-			</div>
+	    	@yield('avatar')
 		</div>
 	</div>
 </div>
