@@ -31,6 +31,7 @@ class CreateEmployeesTable extends Migration
             $table->string('phone');
             $table->string('backup_phone')->nullable();
             $table->date('birthday_date');
+            $table->string('avatar')->default('avatar.png')->nullable();
             $table->date('hire_date');
             $table->char('gender', 1);
             $table->integer('company_id');

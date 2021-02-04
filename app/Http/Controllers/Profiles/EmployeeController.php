@@ -72,8 +72,9 @@ class EmployeeController extends Controller
             ['code' => uniqueCode()]);
 
         if ($request->hasFile('avatar')) {
-            $employee->avatar = $request->file('avatar')->store('avatars');
+            $employee->avatar = $request->file('avatar')->store('public');
         }
+
         $employee->roles()->attach($request->role_id);
         $employee->banks()->attach($request->bank_id);
         $employee->paymentGateways()->attach($request->payment_gateway_id);
@@ -128,7 +129,7 @@ class EmployeeController extends Controller
             ['code' => uniqueCode()]);
 
         if ($request->hasFile('avatar')) {
-            $employee->avatar = $request->file('avatar')->store('avatars');
+            $employee->avatar = $request->file('avatar')->store('public');
         }
         $employee->roles()->sync($request->role_id);
         $employee->banks()->sync($request->bank_id);
