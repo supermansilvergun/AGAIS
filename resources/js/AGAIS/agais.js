@@ -339,5 +339,4 @@ jQuery(document).ready(function($) {
     /*********************
     * SAVE IMAGE PROFILE *
     **********************/
-    hola
 });
